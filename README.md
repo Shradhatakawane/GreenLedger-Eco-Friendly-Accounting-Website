@@ -4,15 +4,23 @@ GreenLedger is a responsive, eco-friendly accounting website showcasing services
 # Features
 
 Responsive layout using Bootstrap
+
 Clean navbar and hero section
+
 Services section with icons
+
 About section promoting sustainability
+
 Contact form for user queries
+
 Professional green-themed UI
 
 # Technologies Used
 
-# HTML5
-# CSS3
-# Bootstrap 5
-# Bootstrap Icons
+HTML5
+
+CSS3
+
+Bootstrap 5
+
+Bootstrap Icons
