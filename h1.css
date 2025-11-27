@@ -1,0 +1,76 @@
+/* Navbar link colors */
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+
+.hero-section {
+   background: linear-gradient(rgba(0, 100, 0, 0.421), rgba(0, 100, 0, 0.5)),
+              url('./wallpaper.avif') center/cover no-repeat;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-get-started {
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.btn-get-started:hover {
+  background-color: darkgreen;
+  color: white;
+}
+
+.section-spacing {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+
+}
+.service-box, .card {
+  border: none;
+}
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+/* About Section */
+.section-spacing {
+  padding: 60px 0;
+}
+
+.about-heading {
+  color: rgb(4, 48, 4);
+  font-size: 2rem; 
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hover-heading {
+  transition: color 0.3s ease;
+}
+
+.hover-heading:hover {
+  color: #28a745; 
+}
+.hover-img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-img:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+footer p {
+  font-size: 0.9rem;
+}
